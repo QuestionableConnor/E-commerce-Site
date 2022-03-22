@@ -22,13 +22,34 @@
                     <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
                 </ul>
             </div>
+            <button class="btn__menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#features" class="menu__link">Books</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link no-cursor">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <header>
             <div class="header__container">
                 <div class="header__description">
                     <h1>Australia's most awarded online library platform!</h1>
                     <h2>Find your dream book with <span class="blue">Library!</span></h2>
-                    <button class="btn">Browse books!</button>
+                    <a href="#features">
+                        <button class="btn">Browse books!</button>
+                    </a>
                 </div>
                 <figure class="header__img--wrapper">
                     <img src="./assets/undraw_book_reading_kx-9-s.svg" alt="">
@@ -240,7 +261,7 @@
                                 <span class="book__price--normal">$39.95 </span>$29.95
                             </div>
                         </div>
-                        
+
                         <div class="book">
                             <figure class="book__img--wrapper">
                                 <img class="book__img" src="./assets/book-6.jpg" alt="">
@@ -346,12 +367,32 @@
                     <h2>
                         Explore more <span class="blue">Books!</span>
                     </h2>
-                    <button class="btn">Browse books!</button>
+                    <a href="#features">
+                        <button class="btn">Browse books!</button>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
 
+    <footer>
+        <div class="container">
+            <div class="row row__column">
+                <a href="#">
+                    <figure class="footer__logo">
+                        <img src="./assets/logo.png" class="footer__logo--img" alt="">
+                    </figure>
+                </a>
+                <div class="footer__list">
+                    <a href="" class="footer__link">Home</a>
+                    <a href="" class="footer__link no-cursor">About</a>
+                    <a href="#features" class="footer__link">Books</a>
+                    <a href="" class="footer__link no-cursor">Contact</a>
+                </div>
+                <div class="footer__copyright">Copyright &copy; 2021 Library</div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
