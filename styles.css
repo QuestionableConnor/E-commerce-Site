@@ -366,7 +366,8 @@ footer {
 }
 
 .footer__logo--img {
-  width: 160px;
+  width: 120px;
+  height: 70px;
   filter: grayscale(1) invert(1);
 }
 
@@ -435,6 +436,13 @@ select {
   padding-top: 60px;
   font-size: 60px;
   color: #004ddd;
+}
+
+.books__loading--spinner{
+  display: none !important;
+}
+.books__loading .books__loading--spinner{
+display: block !important;
 }
 
 .fa-spinner{
